@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+}
+
+/* coloumn1 */
+.column1 .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 35px;
+}
+
+.logo{
+    font-size: 30px;
+    color: #f9faf8;
+}
+
+.right-links{
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 40px;
+    margin-right: 70px;
+}
+
+.media img{
+    height: 600px;
+    width: 600px;
+}
+
+
+.hero{
+    margin-left: 200px;
+    margin-right: 70px;
+}
+
+.maintext{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-bottom: 10px;
+}
+
+.secondarytext{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    font-weight: 700;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    margin: 0;
+    padding: 10px 200px 60px 200px;
+    gap: 30px;
+}
+
+/* column 2 */
+
+.column2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 300px 40px 300px;
+}
+
+.column2 .header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    flex-wrap: wrap;
+}
+
+.information{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.information img{
+    width: 150px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+    object-fit: cover;
+    margin: 30px 30px 5px 30px;
+}
+
+.info .text{
+    text-align: center;
+}
+
+/* column 3 */
+
+.column3{
+    padding: 80px 300px 80px 300px;
+    background-color: #e5e7eb;
+}
+
+.column3 .text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.column3 .subtext{
+    text-align: right;
+    margin-right: 40px;
+    font-weight: 550;
+    font-size: 30px;
+}
+
+/* column 4 */
+
+.column4{
+    background-color: #3882f6;
+    margin: 80px 300px;
+    border:5px solid #3882f6;
+    border-radius: 15px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column4 .text{
+    font-size: 24px;
+    font-weight: bold;
+}
+
