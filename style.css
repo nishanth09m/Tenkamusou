@@ -14,6 +14,7 @@ body{
 .logo{
     font-size: 30px;
     color: #f9faf8;
+    font-weight: 700;
 }
 
 .right-links{
@@ -34,7 +35,7 @@ a{
     align-items: center;
     flex-direction: row-reverse;
     gap: 40px;
-    margin-right: 70px;
+    margin-right: 100px;
 }
 
 .media img{
@@ -86,7 +87,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 300px 40px 300px;
+    padding: 80px 350px 80px 300px;
 }
 
 .column2 .header{
@@ -117,7 +118,7 @@ button {
 /* column 3 */
 
 .column3{
-    padding: 80px 300px 80px 300px;
+    padding: 100px 250px 100px 350px;
     background-color: #e5e7eb;
 }
 
@@ -138,16 +139,42 @@ button {
 
 .column4{
     background-color: #3882f6;
-    margin: 80px 300px;
+    margin: 80px 330px 80px 380px;
     border:5px solid #3882f6;
     border-radius: 15px;
-    padding: 20px 50px;
+    padding: 30px 80px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .column4 .text{
     font-size: 24px;
     font-weight: bold;
+    color: #f9faf8;
+}
+
+.column4 .subtext{
+    color: #e5e7eb;
+}
+
+.column4 button {
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 8px;
+    background: #3882f6;
+    border: 1px solid white;
+    color: white;
+    font-weight: 700;
+}
+
+/* column 5 */
+.footer{
+    background-color: #1f2937;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
 }
 
